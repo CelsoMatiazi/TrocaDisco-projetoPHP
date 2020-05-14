@@ -1,0 +1,143 @@
+*{
+  box-sizing: border-box;
+}
+
+*:focus {
+    outline: none;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: white;
+}
+
+header{
+  width: 100%;
+  height: 70px;
+  background: #407294;
+  display: flex;
+  align-items: center;
+  z-index: 2;
+  position: sticky;
+  top: 0;
+  margin-bottom: 30px;
+
+
+}
+
+header img{
+  height: 70px;
+  margin-left: 20px;
+}
+
+header h2{
+  font-size: 30px;
+}
+
+header div{
+  width: 30%;
+}
+
+
+header h3{
+  margin: 0 auto;
+  font-family: monospace;
+}
+
+#bt-sair{
+
+  width: 40px;
+  height: 40px;
+  margin-right: 25px;
+}
+
+main{
+  width: 70%;
+  margin: 0 auto;
+  margin-right: 10%;
+}
+
+main section{
+  display: flex;
+  border: 1px solid black;
+}
+
+main section article{
+  margin-right: 20px;
+}
+
+
+
+main section article img{
+  width: 280px;
+  height: 280px;
+}
+
+main section article button{
+  width: 200px;
+  height: 40px;
+  background: red;
+  color: white;
+  border: none;
+}
+
+
+
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #192d3b;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 150px;
+}
+
+.sidenav img{
+  width: 150px;
+  height: 150px;
+  margin-left: 45px;
+  border-radius: 75px;
+  margin-bottom: 20px;
+
+}
+
+.sidenav a {
+
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 17px;
+  color: white;
+  display: block;
+  transition: 0.3s;
+
+
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+  margin-top: 80px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+header span{
+  margin-left: 20px;
+}

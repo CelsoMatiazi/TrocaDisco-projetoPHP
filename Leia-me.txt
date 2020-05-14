@@ -1,0 +1,24 @@
+Projeto PHP Digital House - Turma FullStack03
+
+Troca Disco é uma plataforma de venda de discos de vinil, onde o usuário através de uma cadastro pode anunciar LP’s para venda.
+
+Para efeito de Teste alguns usuários e produtos ja foram cadastrados, a SENHA para todos eles é 1234567.
+
+	celso@gmail.com
+	steve@gmail.com
+	joe@gmail.com
+
+Ha também um login de ADMINISTRADOR
+	email - admin@admin
+	senha 1234567
+
+Quando Logado o usuário pode:
+	cadastrar produtos
+	visualizar seus produtos cadastrados
+	Alterar informações dos produtos e excluir produto
+
+Na pagina Home o usuário pode ver todos os produtos cadastrados com um efeito randômico para alterar a visualização.
+Também é possível fazer uma pesquisa por nome do artista para verificar se ha alguns produtos cadastrado.
+
+O usuário consegue através o menu perfil, alterar seus dados cadastrais.
+O usuario tameme pode efectuar LogOut através do menu ou no icone a direita do header.

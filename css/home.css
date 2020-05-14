@@ -1,0 +1,317 @@
+*{
+  box-sizing: border-box;
+}
+
+*:focus {
+    outline: none;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: black;
+}
+
+header{
+  width: 100%;
+  height: 70px;
+  background: orange;
+  display: flex;
+  align-items: center;
+  z-index: 2;
+  position: sticky;
+  top: 0;
+
+
+}
+
+header img{
+  height: 70px;
+  margin-left: 20px;
+}
+
+header h2{
+  font-size: 30px;
+}
+
+header div{
+  width: 10%;
+}
+
+.pesquisa input{
+  height: 40px;
+  width: 400px;
+  margin-left: 30px;
+  margin-right: 0px;
+  border-radius: 20px;
+  border: none;
+  padding-left: 30px;
+  font-size: 15px;
+
+}
+
+
+
+.pesquisa button{
+  background-color: rgba(255, 0, 0, 0);
+  border: none;
+  border-radius: 20px 20px 20px  20px;
+  height: 30px;
+  width: 30px;
+  position: relative;
+  top: 9px;
+  right: 40px;
+
+}
+
+.pesquisa button img{
+  width: 25px;
+  height: 25px;
+  position: relative;
+  position: relative;
+  top: -2px;
+  right: 25px;
+  border-radius: 20px 20px 20px  20px;
+
+}
+
+header h3{
+  margin: 0 auto;
+  font-family: monospace;
+}
+
+#bt-sair{
+
+  width: 40px;
+  height: 40px;
+  margin-right: 25px;
+}
+
+main{
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  margin: 0 auto;
+
+}
+
+
+main article{
+
+
+  height: 370px;
+  width: 24.5%;
+  background-image: linear-gradient(orange, #fcf6e9);
+  margin-top: 25px;
+  border-radius: 20px 45px 10px 10px;
+  margin-right: 5px;
+
+
+}
+
+main article img{
+  margin-left: 5%;
+  margin-top: 30px;
+  width: 90%;
+  height: 60%;
+}
+
+main article h2, h4{
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 0px;
+  margin-bottom: 0px;
+
+}
+
+main article h2{
+  font-size: 19px;
+}
+
+
+main article h4{
+  color: grey;
+  margin-bottom: 0px;
+
+}
+
+main article .preco{
+  color: white;
+  background-color: #E74C3C  ;
+  width: 120px;
+  margin-top: 0px;
+  margin-left: 5%;
+}
+
+main article .preco h2{
+font-size: 23px;
+}
+
+main article button {
+  width: 90%;
+  height: 30px;
+  margin-left: 5%;
+  background: orange;
+  border: none;
+  margin-top: 4px;
+}
+
+
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 150px;
+}
+
+.sidenav img{
+  width: 150px;
+  height: 150px;
+  margin-left: 45px;
+  border-radius: 75px;
+
+}
+
+.sidenav a {
+
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+  margin-top: 80px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+header span{
+  margin-left: 20px;
+}
+
+
+
+@media (max-width: 1110px) {
+
+  main article{
+    width: 30%;
+  }
+
+}
+
+
+@media (max-width: 1021px) {
+
+.pesquisa input{
+  width: 250px;
+}
+
+}
+
+@media (max-width: 1021px) {
+
+  main article{
+    width: 48%;
+  }
+
+  header img{
+    height: 50px;
+    margin-left: 20px;
+  }
+
+  header h2{
+    font-size: 20px;
+  }
+
+  header div{
+    width: 1%;
+  }
+
+}
+
+
+@media (max-width: 792px) {
+
+  header h2{
+    display: none;
+  }
+
+}
+
+
+@media (max-width: 683px) {
+  .pesquisa input{
+    width: 200px;
+    height: 30px;
+  }
+
+
+}
+
+
+@media (max-width: 635px) {
+
+  main article{
+    width: 80%;
+    margin: 0 auto;
+    
+    margin-top: 10px;
+  }
+
+  header img{
+    height: 0px;
+    margin-left: 0px;
+  }
+}
+
+@media (max-width: 540px) {
+
+  .pesquisa input{
+    width: 180px;
+    height: 30px;
+    margin-left: 15px;
+    margin-right: -5px;
+
+  }
+
+  header h3{
+    font-size: 12px;
+    margin-left: 0px;
+
+  }
+
+  #bt-sair{
+
+    width: 30px;
+    height: 30px;
+    margin-right: 15px;
+  }
+
+
+
+
+}

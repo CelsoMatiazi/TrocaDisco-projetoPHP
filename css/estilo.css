@@ -1,0 +1,505 @@
+*{
+  box-sizing: border-box;
+}
+
+*:focus {
+    outline: none;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: black;
+}
+
+
+
+
+header{
+  width: 100%;
+  height: 70px;
+  background: orange;
+  display: flex;
+  align-items: center;
+  z-index: 2;
+  position: sticky;
+  top: 0px;
+
+
+}
+
+header img{
+  height: 70px;
+  margin-left: 20px;
+}
+
+
+
+header h2{
+  font-size: 30px;
+}
+
+
+
+header div{
+  width: 10%;
+}
+
+.pesquisa input{
+  height: 40px;
+  width: 400px;
+  margin-left: 30px;
+  margin-right: 0px;
+  border-radius: 20px;
+  border: none;
+  padding-left: 30px;
+  font-size: 15px;
+}
+
+.pesquisa button{
+  background-color: rgba(255, 0, 0, 0);
+  border: none;
+  border-radius: 20px 20px 20px  20px;
+  height: 30px;
+  width: 30px;
+  position: relative;
+  top: 9px;
+  right: 40px;
+
+}
+
+.pesquisa button img{
+  width: 25px;
+  height: 25px;
+  position: relative;
+  position: relative;
+  top: -2px;
+  right: 25px;
+  border-radius: 20px 20px 20px  20px;
+}
+
+
+header button, a{
+  height: 45px;
+  width: 150px;
+  border-radius: 15px;
+  border: 2px solid black;
+  font-size: 25px;
+  background: orange;
+  margin-right: 20px;
+  text-align: center;
+  padding-top: 5px;
+  text-decoration: none;
+}
+
+a:visited{
+  color: black;
+}
+
+header a:hover{
+  background: black;
+  color: white;
+}
+
+#icone:hover{
+  background: black;
+  color: white;
+}
+
+
+
+
+/* #icone , header a{
+  cursor: pointer;
+  height: 45px;
+  width: 150px;
+  border-radius: 15px;
+  border: 2px solid black;
+  font-size: 25px;
+  background: orange;
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  left: calc(100% - 200px);
+  font-size: 25px;
+  padding-top: 5px
+} */
+
+
+
+
+
+
+ banner{
+  margin: 0 auto;
+  margin-top: 0px;
+  width: 100%;
+  height: 300px;
+  background-image: linear-gradient(orange, #fcf6e9);
+  display: flex;
+
+
+}
+
+ banner img{
+  margin-top: 30px;
+  margin-left: 30px;
+  height: 80%;
+  width: 20%;
+  border-radius: 20px 45px 60px 80px;
+}
+
+banner div{
+  height: 250px;
+  margin-left: 20px;
+
+}
+
+
+#bannerLogo{
+  width: 80%;
+}
+
+banner div h2{
+
+  margin-top: 0px;
+  font-size: 21px;
+  font-family: Andale mono;
+  margin-left: 60px;
+
+
+}
+
+
+main{
+  width: 95%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+
+main article{
+
+
+  height: 370px;
+  width: 24.5%;
+  background-image: linear-gradient(orange, #fcf6e9);
+  margin-top: 25px;
+  border-radius: 20px 45px 10px 10px;
+  margin-right: 5px;
+
+}
+
+main article img{
+  margin-left: 5%;
+  margin-top: 30px;
+  width: 90%;
+  height: 60%;
+}
+
+main article h2, h4{
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 0px;
+  margin-bottom: 0px;
+
+}
+
+main article h4{
+  color: grey;
+  margin-bottom: 15px;
+}
+
+main article h2{
+  font-size: 18px;
+}
+
+main article button a{
+  border: none;
+  border-radius: 0px;
+  font-size: 13px;
+  color: black;
+  margin-left: 6%;
+  padding: 5px 30px;
+
+
+}
+
+main article button{
+  width: 90%;
+  height: 30px;
+  margin-left: 5%;
+  background: orange;
+  border: none;
+  margin-top: 5px;
+}
+
+footer{
+  width: 100%;
+  height: 160px;
+  background: orange;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+
+
+
+}
+
+footer .margem{
+  width: 18%;
+}
+
+footer div{
+  height: 80%;
+  width: 20%;
+  margin-left: 10px;
+  border-right: 1px solid black;
+  font-family: Andale mono;
+
+
+}
+
+footer div h2{
+  font-family: Andale mono;
+  font-size: 15px;
+
+}
+
+footer div p{
+  margin-left: 0px;
+  font-size: 13px;
+
+
+
+}
+
+footer div img{
+  height: 30px;
+  width: 30px;
+  margin-right: 10px;
+
+}
+
+
+@media (max-width:1216px) {
+
+  header div{
+    width: 1%;
+  }
+}
+
+@media (max-width:1105px) {
+
+  header div{
+    width: 0%;
+  }
+
+  .pesquisa input{
+    height: 30px;
+    width: 300px;
+    margin-left: 10px;
+    margin-right: 0px;
+
+    position: relative;
+    top: -5px;
+    padding-left: 30px;
+    font-size: 15px;
+  }
+
+  .pesquisa button{
+    height: 20px;
+    width: 20px;
+    position: relative;
+    top: 5px;
+    right: 30px;
+  }
+
+  .pesquisa button img{
+    width: 25px;
+    height: 25px;
+    position: relative;
+    position: relative;
+    top: -2px;
+    right: 25px;
+    border-radius: 20px 20px 20px  20px;
+  }
+
+  header img{
+    height: 50px;
+    margin-left: 10px;
+  }
+
+
+
+  header h2{
+    font-size: 20px;
+  }
+
+  header  a{
+    height: 30px;
+    width: 100px;
+    font-size: 17px;
+    margin-right: 10px;
+    padding-top: 0px;
+
+  }
+}
+
+
+
+
+@media (max-width:1050px) {
+main article{
+width: 32.5%;
+}
+
+banner div h2{
+  font-size: 14px;
+}
+
+footer div h2{
+  font-family: Andale mono;
+  font-size: 12px;
+
+}
+
+footer div p{
+  margin-left: 0px;
+  font-size: 10px;
+
+
+
+}
+
+footer div img{
+  height: 20px;
+  width: 20px;
+
+
+}
+
+}
+
+
+
+@media (max-width:780px) {
+main article{
+width: 44.5%;
+}
+
+header h2{
+  font-size: 0px;
+}
+
+.pesquisa button{
+  width: 10px;
+}
+
+banner img{
+ margin-top: 30px;
+ margin-left: 30px;
+ height: 80%;
+ width: 20%;
+ border-radius: 10px 22px 30px 40px;
+
+}
+
+banner div{
+ height: 150px;
+ margin-left: 20px;
+
+}
+
+
+#bannerLogo{
+ width: 90%;
+}
+
+banner div h2{
+  font-size: 14px;
+  margin-left: 40px;
+}
+
+
+banner{
+
+ height: 180px;
+
+
+}
+
+footer{
+  display: block;
+
+  height: 100%;
+}
+
+footer div{
+  border: none;
+  width: 80%;
+}
+
+footer div h2{
+  font-family: Andale mono;
+  font-size: 15px;
+
+
+}
+
+footer div p{
+  margin-left: 0px;
+  font-size: 13px;
+
+
+
+}
+
+footer div img{
+  height: 30px;
+  width: 30px;
+  margin-right: 10px;
+
+}
+
+@media (max-width:640px) {
+
+  header img{
+
+    display: none;
+  }
+
+  .pesquisa input{
+    height: 30px;
+    width: 160px;
+    margin-left: 7px;
+    margin-right: 0px;
+
+    position: relative;
+    top: 0px;
+    padding-left: 10px;
+    font-size: 10px;
+  }
+
+  banner div h2{
+    display: none;
+  }
+
+}
+
+
+@media (max-width:480px) {
+main article{
+width: 90.5%;
+}
+
+banner div{
+ height: 100px;
+ margin-left: -15px;
+ margin-top: 25px;
+
+}
+
+}

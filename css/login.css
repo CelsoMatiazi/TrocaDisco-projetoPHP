@@ -1,0 +1,156 @@
+*{
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: black;
+  /*background: #fcf6e9;*/
+}
+
+
+
+
+header{
+  width: 100%;
+  height: 70px;
+  background: orange;
+  display: flex;
+  align-items: center;
+  z-index: 2;
+
+
+}
+
+header img{
+  height: 70px;
+  margin-left: 20px;
+}
+
+header h2{
+  font-size: 30px;
+}
+
+header div{
+  width: 47.5%;
+}
+
+
+
+header button, a{
+  height: 45px;
+  width: 150px;
+  border-radius: 15px;
+  border: 2px solid black;
+  font-size: 25px;
+  background: orange;
+  margin-right: 20px;
+  text-align: center;
+  padding-top: 5px;
+  text-decoration: none;
+}
+
+a:visited{
+  color: black;
+}
+
+header a:hover{
+  background: black;
+  color: white;
+}
+
+
+#icone:hover{
+  background: black;
+  color: white;
+}
+
+
+#check{
+  display: none;
+}
+
+#icone{
+  cursor: pointer;
+  height: 45px;
+  width: 150px;
+  border-radius: 15px;
+  border: 2px solid black;
+  font-size: 25px;
+  background: orange;
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  left: calc(100% - 200px);
+  font-size: 25px;
+  padding-top: 5px
+}
+
+main section{
+  width: 400px;
+  height: 350px;
+  background: white;
+  margin: 0 auto;
+  margin-top: 30px;
+  display: block;
+}
+
+main section div{
+
+  margin: 0 auto;
+
+}
+
+main h1{
+  width: 150px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  color: black;
+  font-family: monospace;
+  background: orange;
+
+}
+
+main .mensagem {
+  color: red;
+  font-size: 15px;
+  text-align: center;
+
+
+}
+
+main section div img{
+  height: 100px;
+  width: 100px;
+  margin-left: 150px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+}
+
+main section div form input{
+  width: 350px;
+  height: 40px;
+  margin-left: 25px;
+  margin-right: 0px;
+  margin-bottom: 15px;
+  font-size: 15px;
+  display: block;
+  color: grey;
+}
+
+main section div form button{
+  width: 350px;
+  height: 50px;
+  margin-left: 25px;
+  background: orange;
+  font-size: 30px;
+  border: none;
+  font-family: monospace;
+  margin-top: 10px;
+
+}
